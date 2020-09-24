@@ -62,23 +62,17 @@ float: left;
   font-size: 16px;
 
 }
-.box
+.Bigbox
 {
   margin: 50px;
   padding: 50px;
   background: white;
   text-align: center;
+  align-items: center;
   color: #7b65a3;
  }
 
-.container
-{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-}
+
 
 .imgeText p {
   width: 450px;
@@ -89,4 +83,21 @@ img
   width: 450px;
   height: 300px;
   margin: 10px;
+}
+.box
+{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  padding:  20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+}
+
+
+.Content
+{
+  padding-left:  20px;
 }
