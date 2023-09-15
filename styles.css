@@ -28,36 +28,13 @@ header
     width: 300px;
     height: 280px;
 }
-.Sale_content
+.content
 {
  padding-left: 100PX;
  display: flex;
  flex-direction:  column;
  gap: 50px;
- justify-content: flex-start;  
- align-items:flex-start;
-}
-.Sale_content button
-{
-    border: none;  
-    padding: 10px 10px;
-    text-align: center;
-    border-radius: 12px;
-    font-size: 20px;
-    background-color: gray;
-    color: black;
-    
-}
-.Sale_end
-{
- display: flex;
- flex-direction: row;
- gap: 20px;
- flex-basis: 100px;
+ justify-content: center;  
+ align-items:center;
 }
  
-.Sale_end div p
-{
-    font-size: 60px;
-    margin-bottom: -14px;
-}
